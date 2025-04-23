@@ -6360,10 +6360,13 @@
     </message>
     <!-- MESSAGE IDs 180 - 229: Space for custom messages in individual projectname_messages.xml files -->
     <!-- 192 MAG_CAL_REPORT imported from ardupilotmega.xml -->
-    <message id="180" name="TEST_MSG">
-      <description>Message to test mavlink implementation.</description>
-      <field type="float" name="x">Test x value.</field>
-      <field type="float" name="y">Test x value.</field>
+    <message id="180" name="FMR_SENSORS">
+      <description>Message to include custom sensor values send by Companion computer.</description>
+      <field type="float" name="sens_1">Sensor 1 value.</field>
+      <field type="float" name="sens_2">Sensor 2 value.</field>
+      <field type="float" name="sens_3">Sensor 3 value.</field>
+      <field type="float" name="sens_4">Sensor 4 value.</field>
+      <field type="float" name="sens_5">Sensor 5 value.</field>
     </message>
     <message id="192" name="MAG_CAL_REPORT">
       <description>Reports results of completed compass calibration. Sent until MAG_CAL_ACK received.</description>
